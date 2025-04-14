@@ -54,7 +54,7 @@ pip install --upgrade --quiet azure-search-documents
 pip install --upgrade --quiet azure-identity
 ```
 
-(You can find more info about azure search with langchain here: langchain vector store : azure search)
+You can find more info about azure search with langchain here: (langchain vector store : azure search)[https://python.langchain.com/docs/integrations/vectorstores/azuresearch/#install-azure-ai-search-sdk]
 
 The --upgrade flag ensures you get the latest versions, and --quiet keeps the output clean.
 
