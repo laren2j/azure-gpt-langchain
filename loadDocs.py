@@ -31,7 +31,7 @@ embeddings: AzureOpenAIEmbeddings = AzureOpenAIEmbeddings(
 
 # Azure Cognitive Search Index Name
 # Specify the name of the index in Azure Cognitive Search where documents will be stored.
-index_name: str = "azurelangchainrag"
+index_name: str = "azure-langchain-rag"
 
 # Async Wrapper Function
 # This function initializes the AzureSearch vector store with the provided configuration.
