@@ -30,22 +30,22 @@ cd llm
 * `cd llm` moves you into the "llm" folder.
 
 ## Step 2: Making the Virtual Environment
-Inside your project folder, create the virtual environment. We'll call it `llm_env`. Type this command and press Enter:
+Inside your project folder, create the virtual environment. We'll call it `azure-gpt-langchain_env`. Type this command and press Enter:
 
 ```Bash
-python3 -m venv llm_env
+python3 -m venv azure-gpt-langchain_env
 ```
 
-This creates a new folder called `llm_env` inside your project folder. This is where all the packages for your project will live.
+This creates a new folder called `azure-gpt-langchain_env` inside your project folder. This is where all the packages for your project will live.
 
 ## Step 3: Activate the Virtual Environment
 To start using the virtual environment, you need to activate it. Type the following command and press Enter:
 
 ```Bash
-source llm_env/bin/activate
+source azure-gpt-langchain_env/bin/activate
 ```
 
-You'll know it's activated when you see `(llm_env)` at the beginning of your command prompt, like this: `(llm_env) $`.
+You'll know it's activated when you see `(azure-gpt-langchain_env)` at the beginning of your command prompt, like this: `(azure-gpt-langchain_env) $`.
 
 ## Step 4: Installing the Packages You Need
 Now, let's install the Python packages your project needs. For this example, we'll install `azure-search-documents` and `azure-identity`. Type these commands, pressing Enter after each:
@@ -68,11 +68,11 @@ When you're done working on your project, you can "deactivate" the virtual envir
 deactivate
 ```
 
-The `(llm_env)` will disappear from your command prompt.
+The `(azure-gpt-langchain_env)` will disappear from your command prompt.
 
 # Important Things to Remember
 * **Keep Things Separate:** Virtual environments keep your project's packages separate, which is super important!
 * **Always Activate:** Make sure you activate your virtual environment before installing or running anything for your project.
-* **Name It What You Want:** You can name your virtual environment anything you like (e.g., `myenv`,` project_venv`). Just replace `llm_env` with your chosen name in the commands.
+* **Name It What You Want:** You can name your virtual environment anything you like (e.g., `myenv`,` project_venv`). Just replace `azure-gpt-langchain_env` with your chosen name in the commands.
 
 You're all set! Have fun building your project! 🚀

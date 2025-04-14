@@ -46,22 +46,22 @@ cd llm
 * `cd llm` moves you into the "llm" folder.
 
 ## Step 3: Making the Virtual Environment
-Inside your project folder, create the virtual environment. We'll call it `llm_env`. Type this command and press Enter:
+Inside your project folder, create the virtual environment. We'll call it `azure-gpt-langchain_env`. Type this command and press Enter:
 
 ```sh
-python3 -m venv llm_env
+python3 -m venv azure-gpt-langchain_env
 ```
 
-This creates a new folder called `llm_env` inside your project folder. This is where all the packages for your project will live.
+This creates a new folder called `azure-gpt-langchain_env` inside your project folder. This is where all the packages for your project will live.
 
 ## Step 4: Activating the Virtual Environment
 To start using the virtual environment, you need to "activate" it. Type this and press Enter:
 
 ```sh
-source llm_env/bin/activate
+source azure-gpt-langchain_env/bin/activate
 ```
 
-You'll know it's activated when you see `(llm_env)` at the beginning of your command prompt, like this: `(llm_env) $`.
+You'll know it's activated when you see `(azure-gpt-langchain_env)` at the beginning of your command prompt, like this: `(azure-gpt-langchain_env) $`.
 
 ## Step 5: Installing the Packages You Need
 Now, let's install the Python packages your project needs. For this example, we'll install `azure-search-documents` and `azure-identity`. Type these commands, pressing Enter after each:
@@ -84,7 +84,7 @@ When you're done working on your project, you can "deactivate" the virtual envir
 ```sh
 deactivate
 ```
-The `(llm_env)` will disappear from your command prompt.
+The `(azure-gpt-langchain_env)` will disappear from your command prompt.
 
 # Important Things to Remember
 
