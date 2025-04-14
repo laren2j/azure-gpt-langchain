@@ -30,20 +30,20 @@ sudo apt install python3 python3-venv python3-pip
 
 ## Step 2: Creating Your Project Folder
 
-Now, let's create a folder for your project. Decide where you want to keep your project files. For this example, we'll create a folder called "llm" on your Desktop.
+Now, let's create a folder for your project. Decide where you want to keep your project files. For this example, we'll create a folder called "azure-gpt-langchain" on your Desktop.
 
 In your Windows Terminal or PowerShell (with WSL running), type these commands:
 
 ```sh
 cd /mnt/c/Users/your_username/Desktop/
-mkdir llm
-cd llm
+mkdir azure-gpt-langchain
+cd azure-gpt-langchain
 ```
 
 * Replace `your_username` with your actual Windows username.
 * `cd /mnt/c/Users/your_username/Desktop/` moves you to your Desktop folder.
-* `mkdir llm` creates a new folder named "llm".
-* `cd llm` moves you into the "llm" folder.
+* `mkdir azure-gpt-langchain` creates a new folder named "azure-gpt-langchain".
+* `cd azure-gpt-langchain` moves you into the "azure-gpt-langchain" folder.
 
 ## Step 3: Making the Virtual Environment
 Inside your project folder, create the virtual environment. We'll call it `azure-gpt-langchain_env`. Type this command and press Enter:
@@ -87,7 +87,6 @@ deactivate
 The `(azure-gpt-langchain_env)` will disappear from your command prompt.
 
 # Important Things to Remember
-
 * **WSL Access:** /mnt/c/ lets you access your Windows files from inside WSL.
 * **Keep Things Separate:** Virtual environments keep your project's packages separate, which is super important!
 * **Always Activate:** Make sure you activate your virtual environment before installing or running anything for your project.

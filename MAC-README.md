@@ -15,19 +15,19 @@ python3 --version
 If you see a version number like `Python 3.9.6`, you're good to go! If you get an error message saying "command not found" or something similar, you'll need to install Python 3. You can download the latest version from the official Python website (python.org).
 
 ## Step 1: Making Your Project Folder
-Now, let's create a folder for your project. Decide where you want to keep your project files. For this example, we'll create a folder called "llm" on your Desktop.
+Now, let's create a folder for your project. Decide where you want to keep your project files. For this example, we'll create a folder called "azure-gpt-langchain" on your Desktop.
 
 In your Terminal, type these commands one by one, pressing Enter after each:
 
 ```Bash
 cd Desktop
-mkdir llm
-cd llm
+mkdir azure-gpt-langchain
+cd azure-gpt-langchain
 ```
 
 * `cd Desktop` moves you to your Desktop folder.
-* `mkdir llm` creates a new folder named "llm".
-* `cd llm` moves you into the "llm" folder.
+* `mkdir azure-gpt-langchain` creates a new folder named "azure-gpt-langchain".
+* `cd azure-gpt-langchain` moves you into the "azure-gpt-langchain" folder.
 
 ## Step 2: Making the Virtual Environment
 Inside your project folder, create the virtual environment. We'll call it `azure-gpt-langchain_env`. Type this command and press Enter:
